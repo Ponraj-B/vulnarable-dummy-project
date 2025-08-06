@@ -21,6 +21,13 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+
+         <dependency>
+             <groupId>commons-collections</groupId>
+             <artifactId>commons-collections</artifactId>
+             <version>3.2.1</version>
+         </dependency>
+
         <!-- Vulnerable Log4j2 version -->
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
